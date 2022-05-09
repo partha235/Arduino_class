@@ -1,0 +1,4 @@
+{
+    "arduino.clearOutputOnBuild": true,
+    "arduino.disableIntelliSenseAutoGen": false
+}
