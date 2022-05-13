@@ -1,3 +1,4 @@
+#include"Arduino.h"
 #define but 2
 void setup(){
     pinMode(but,INPUT);

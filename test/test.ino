@@ -1,9 +1,15 @@
+int x=3;
 void setup(){
-    pinMode(23,OUTPUT);
+    pinMode(x,INPUT);
+    pinMode(2,OUTPUT);
+    Serial.begin(9600);
 }
 void loop(){
-    digitalWrite(23,1);
-    delay(100); 
-    digitalWrite(23,0);
-    delay(100);
+    
+    digitalWrite(2,1);
+    Serial.println(digitalRead(x));
+    delay(00); 
+    digitalWrite(2,0);
+    Serial.println(digitalRead(x));
+    delay(500);
 }

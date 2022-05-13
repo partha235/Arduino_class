@@ -1,3 +1,4 @@
+
 #define x 2
 int f=0;
 void setup(){
@@ -9,7 +10,7 @@ void loop(){
     int g=digitalRead(x);
     if (g==HIGH){
         f++;
-        Serial.println("objct detected");
+        Serial.println("object detected");
         Serial.println(f);
         digitalWrite(13,HIGH);
         delay(500);
