@@ -8,3 +8,5 @@ To know more about arduino board family visit official [document](https://docs.a
 To know more about the codes written above view [code reference](https://www.arduino.cc/reference/en/).
 
 To get help over arduino for your new projects visit [arduino-help_center](https://support.arduino.cc/hc/en-us).
+
+    Note: The above codes are only for arduino basic programming class.
