@@ -1,0 +1,3 @@
+# DIGITAL_READ
+    This code is to read the digital signal come out from  the sensor.As it was digital signal it can be sensed as oly high/low (i.e. +ev or -ev). For analog based sensor an op-amp ic is used to convert analog signal to digital (ADC).Atmega328 has 13 digital pin to sens digital signal. For this first you have to declare the pin number and it as input to sens.Here i made a ir sensor circuit as output of the sensor connected to input pin 2.
+    ![ir sensor](https://3.bp.blogspot.com/-gd_kXWPEe-g/VxXDclN9-yI/AAAAAAAAA_I/lWearXvGRyEI1KY555IYuli_A7-9VttlwCK4B/s1600/Connection%2BDiagram.png)
