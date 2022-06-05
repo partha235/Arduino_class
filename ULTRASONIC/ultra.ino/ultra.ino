@@ -36,4 +36,6 @@ void loop() {
   Serial.print("Distance: ");
   Serial.print(distance);
   Serial.println(" cm");
+  Serial.print(distance/2.54);
+  Serial.println(" inc");
 }
