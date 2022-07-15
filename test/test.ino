@@ -1,12 +1,12 @@
 
 void setup(){
-    pinMode(12,OUTPUT);
+    pinMode(13,OUTPUT);
     Serial.begin(9600);
 }
 void loop(){
     
-    digitalWrite(12,1);
+    digitalWrite(13,1);
     delay(500); 
-    digitalWrite(12,0);
+    digitalWrite(13,0);
     delay(500);
 }
