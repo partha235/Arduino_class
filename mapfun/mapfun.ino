@@ -17,8 +17,5 @@ void loop() {
   int need_value=map(x,0,1023,5,255); // map function used to scale the reading.
                                       // syntax: map(value, fromLow, fromHigh, toLow, toHigh)
   Serial.println("need value is " + String(need_value)); // converted int to string to print in a lines.
-
   delay(200);
-
-
 }
