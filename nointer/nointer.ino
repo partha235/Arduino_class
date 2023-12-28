@@ -14,5 +14,3 @@ void loop() {
   Serial.println("without interrupt " + String(x));
   delay(200);
 }
-
-
